@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UserSecretsId>dotnet-RCC.WorkerService-7BCA389A-5FDA-4AEE-A44E-126B4D15B3EC</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapper" Version="2.0.35" />
+    <PackageReference Include="Microsoft.Extensions.Hosting" Version="3.1.7" />
+    <PackageReference Include="Microsoft.Extensions.Hosting.Abstractions" Version="3.1.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\RCC.Core\RCC.Core.csproj" />
+    <ProjectReference Include="..\RCC.Infrastructure\RCC.Infrastructure.csproj" />
+  </ItemGroup>
+</Project>
