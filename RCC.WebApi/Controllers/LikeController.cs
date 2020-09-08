@@ -8,7 +8,7 @@ using System;
 namespace RCC.WebApi.Controllers
 {
     [ApiController]
-    [Route("[controller]")]
+    [Route("api/[controller]")]
     public class LikeController : ControllerBase
     {
         public readonly ILikeService _likeService;
